@@ -12,7 +12,7 @@
     'license': 'LGPL-3',
     'version': '1.0',
     'summary': "",
-    'category': 'Uncategorized',
+    'category': 'Base',
     'website': 'http://www.braintec-group.com',
     'images': [
     ],
