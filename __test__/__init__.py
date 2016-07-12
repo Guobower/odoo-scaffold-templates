@@ -7,4 +7,4 @@
 #    See LICENSE file for full licensing details.
 ##############################################################################
 
-from openerp import http
+from . import tests

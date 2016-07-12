@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<odoo>
+  <data>
+    <function model="configure.odoo" name="load">
+   	  <function model="configure.odoo" name="create">
+        <value eval="{'state': 'init'}"/>
+	  </function>
+    </function>
+  </data>
+</odoo>
