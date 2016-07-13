@@ -8,6 +8,7 @@
 ##############################################################################
 {
     'name': "Configure and Test",
+    'description': "Configure and Test",
     'author': "brain-tec AG",
     'license': 'LGPL-3',
     'version': '1.0',
