@@ -1,0 +1,14 @@
+-
+    Create context
+-
+    !context
+        called_from: '__test__'
+
+-
+    Create wizard
+-
+    !python {model: configure.odoo}: |
+        configure_odoo_id = self.pool.get('configure.odoo').create(cr, uid, {}, context=context)
+        configure_odoo = self.pool.get('configure.odoo').browse(cr, uid, configure_odoo_id, context=context)
+        configure_odoo.load()
+

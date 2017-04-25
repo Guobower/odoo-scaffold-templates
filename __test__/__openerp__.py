@@ -17,7 +17,8 @@
     'images': [
     ],
     'depends': [],
-    'data': ['configuration/_load_configuration_settings.xml'
+    'data': ['config_settings/_load_configuration_settings.yml',
+             'config_settings/res.company.csv',
              ],
     'qweb': [
     ],
